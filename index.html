@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio | Dibujo Técnico: Fundamentos, Normativa y Planos</title>
+  <meta name="description" content="Portal educativo sobre Dibujo Técnico: fundamentos, instrumentos de trazado, historia gráfica, galería de planos normalizados y aplicaciones industriales." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-container" aria-label="Navegación principal">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75">
+            <rect x="3" y="3" width="26" height="26" rx="2" />
+            <circle cx="16" cy="16" r="6" />
+            <line x1="16" y1="5" x2="16" y2="27" stroke-dasharray="3 2" />
+            <line x1="5" y1="16" x2="27" y2="16" stroke-dasharray="3 2" />
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-title">DIBUJO TÉCNICO</span>
+          <span class="brand-code">ISO 128 · ESC 1:1</span>
+        </span>
+      </a>
+
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú de navegación">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="index.html" class="nav-link active" aria-current="page">01. Inicio</a></li>
+        <li><a href="instrumentos.html" class="nav-link">02. Instrumentos</a></li>
+        <li><a href="historia.html" class="nav-link">03. Historia</a></li>
+        <li><a href="galeria.html" class="nav-link">04. Galería</a></li>
+        <li><a href="aplicaciones.html" class="nav-link">05. Aplicaciones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <div class="spec-badge">
+              <span class="spec-dot" aria-hidden="true"></span>
+              <span>NORMA INTERNACIONAL · LENGUAJE GRÁFICO UNIVERSAL</span>
+            </div>
+            <h1 class="hero-title">
+              Precisión geométrica que transforma <span class="text-accent">ideas en estructuras reales</span>
+            </h1>
+            <p class="hero-description">
+              El dibujo técnico es el sistema normalizado de representación gráfica que permite definir con exactitud la forma, dimensiones, tolerancias y materiales de un objeto antes de su fabricación o construcción. Es el lenguaje común indispensable entre la ingeniería, la arquitectura y la industria manufacturera.
+            </p>
+            <div class="hero-actions">
+              <a href="galeria.html" class="btn-primary">
+                <span>Explorar Galería de Planos</span>
+                <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <path d="M4 10h12M11 5l5 5-5 5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="instrumentos.html" class="btn-secondary">Ver Instrumentos Esenciales</a>
+            </div>
+            <dl class="hero-metrics">
+              <div class="metric-item">
+                <dt>Normativa Base</dt>
+                <dd>ISO 128 / DIN</dd>
+              </div>
+              <div class="metric-item">
+                <dt>Sistemas de Proyección</dt>
+                <dd>ISO-E · ISO-A</dd>
+              </div>
+              <div class="metric-item">
+                <dt>Tolerancia Estándar</dt>
+                <dd>± 0.02 mm</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="blueprint-frame">
+            <div class="dimension-top" aria-hidden="true">
+              <span class="dim-line"></span>
+              <span class="dim-label">297.00 mm (A4)</span>
+              <span class="dim-line"></span>
+            </div>
+            <div class="blueprint-body">
+              <div class="dimension-left" aria-hidden="true">
+                <span class="dim-line-v"></span>
+                <span class="dim-label-v">210.00 mm</span>
+                <span class="dim-line-v"></span>
+              </div>
+              <img
+                src="assets/img/hero-drafting.jpg"
+                alt="Mesa de dibujo técnico con regla T, escuadras, compás de precisión, calibrador pie de rey y planos enrollados"
+                class="media-frame"
+              />
+            </div>
+            <div class="title-block">
+              <div class="tb-cell">
+                <span class="tb-key">LÁMINA</span>
+                <span class="tb-val">DT-001</span>
+              </div>
+              <div class="tb-cell">
+                <span class="tb-key">MÓDULO</span>
+                <span class="tb-val">PORTADA</span>
+              </div>
+              <div class="tb-cell">
+                <span class="tb-key">UNIDADES</span>
+                <span class="tb-val">mm</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="instruments-block">
+          <div class="section-subhead">
+            <div>
+              <span class="eyebrow">MÓDULOS DEL PORTAL</span>
+              <h2 class="subhead-title">Páginas especializadas por disciplina</h2>
+            </div>
+            <p class="subhead-note">Accede a la página dedicada de cada segmento para explorar láminas, historia, herramientas y aplicaciones reales.</p>
+          </div>
+
+          <div class="portal-grid">
+            <article class="portal-card">
+              <img src="assets/img/instruments-tools.jpg" alt="Instrumentos esenciales de dibujo técnico" class="portal-thumb" />
+              <div class="portal-card-body">
+                <span class="portal-code">SECCIÓN 02 · EQUIPAMIENTO</span>
+                <h3>Instrumentos y Herramientas</h3>
+                <p>Regla T, escuadras, compás, escalímetro, calibrador pie de rey y software CAD con tabla comparativa.</p>
+                <a href="instrumentos.html" class="portal-link">Abrir página →</a>
+              </div>
+            </article>
+
+            <article class="portal-card">
+              <img src="assets/img/era-antiguedad.jpg" alt="Historia del dibujo técnico desde la Antigüedad" class="portal-thumb" />
+              <div class="portal-card-body">
+                <span class="portal-code">SECCIÓN 03 · CRONOLOGÍA</span>
+                <h3>Historia del Dibujo Técnico</h3>
+                <p>De Mesopotamia y Egipto al Renacimiento, la geometría descriptiva de Monge y el CAD 3D.</p>
+                <a href="historia.html" class="portal-link">Abrir página →</a>
+              </div>
+            </article>
+
+            <article class="portal-card">
+              <img src="assets/img/plano-ortogonal.jpg" alt="Galería de planos y proyecciones normalizadas" class="portal-thumb" />
+              <div class="portal-card-body">
+                <span class="portal-code">SECCIÓN 04 · LÁMINAS</span>
+                <h3>Galería de Planos</h3>
+                <p>Vistas ortogonales, cortes, isometría, piezas mecánicas, acotación y plantas arquitectónicas.</p>
+                <a href="galeria.html" class="portal-link">Abrir página →</a>
+              </div>
+            </article>
+
+            <article class="portal-card">
+              <img src="assets/img/app-mecanica.svg" alt="Aplicaciones en mecánica, arquitectura y electricidad" class="portal-thumb" />
+              <div class="portal-card-body">
+                <span class="portal-code">SECCIÓN 05 · INDUSTRIA</span>
+                <h3>Aplicaciones Profesionales</h3>
+                <p>Mecánica industrial y mecatrónica, arquitectura y construcción, y esquemas eléctricos/PCB.</p>
+                <a href="aplicaciones.html" class="portal-link">Abrir página →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block section-alt">
+      <div class="container">
+        <div class="section-header-row">
+          <div class="section-header">
+            <div class="section-index">RESUMEN DESTACADO · EQUIPAMIENTO</div>
+            <h2 class="section-title">Instrumentos esenciales del dibujante</h2>
+            <p class="section-subtitle">
+              Conoce las seis herramientas clave para el trazado geométrico, la medición metrológica y el diseño digital.
+            </p>
+          </div>
+          <a href="instrumentos.html" class="btn-primary">Ver guía técnica completa →</a>
+        </div>
+
+        <div class="instruments-grid">
+          <article class="instrument-card">
+            <div class="instrument-tag">TRAZADO HORIZONTAL</div>
+            <h3>Regla T</h3>
+            <p>Guía paralela sobre el tablero de dibujo para trazos horizontales y soporte directo de escuadras.</p>
+            <div class="instrument-specs">Material: Madera / Acrílico · Precisión: ±0.5 mm</div>
+          </article>
+
+          <article class="instrument-card">
+            <div class="instrument-tag">ÁNGULOS NORMALIZADOS</div>
+            <h3>Escuadras (45° y 30°/60°)</h3>
+            <p>Combinadas entre sí generan ángulos múltiplos de 15° y perpendiculares de alta exactitud.</p>
+            <div class="instrument-specs">Ángulos: 15°, 30°, 45°, 60°, 75°, 90°</div>
+          </article>
+
+          <article class="instrument-card">
+            <div class="instrument-tag">ARCOS Y TRANSPORTE</div>
+            <h3>Compás de Precisión</h3>
+            <p>Trazado de circunferencias, empalmes tangentes y traslado fiel de distancias sobre la lámina.</p>
+            <div class="instrument-specs">Ajuste: Tornillo micrométrico central</div>
+          </article>
+
+          <article class="instrument-card">
+            <div class="instrument-tag">LECTURA DE ESCALAS</div>
+            <h3>Escalímetro</h3>
+            <p>Regla prismática con seis escalas directas de reducción para planos arquitectónicos y civiles.</p>
+            <div class="instrument-specs">Escalas: 1:20, 1:25, 1:50, 1:75, 1:100, 1:125</div>
+          </article>
+
+          <article class="instrument-card">
+            <div class="instrument-tag">METROLOGÍA</div>
+            <h3>Calibrador Pie de Rey</h3>
+            <p>Medición directa de piezas reales en exteriores, interiores y profundidades con nonio Vernier.</p>
+            <div class="instrument-specs">Resolución típica: 0.02 mm / 0.05 mm</div>
+          </article>
+
+          <article class="instrument-card">
+            <div class="instrument-tag">ENTORNO DIGITAL</div>
+            <h3>Software CAD (AutoCAD)</h3>
+            <p>Entorno vectorial 2D y paramétrico 3D con capas normalizadas, bloques y exportación directa a taller.</p>
+            <div class="instrument-specs">Formatos: DWG, DXF, STEP, PDF vectorial</div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>DIBUJO TÉCNICO · PORTAL EDUCATIVO</strong>
+        <span>Representación gráfica normalizada · ISO 128 · ISO 5456 · IEC 60617</span>
+      </div>
+      <div class="footer-meta">
+        <a href="instrumentos.html">Instrumentos</a>
+        <a href="historia.html">Historia</a>
+        <a href="galeria.html">Galería</a>
+        <a href="aplicaciones.html">Aplicaciones</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
