@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <pattern id="gridE" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#bae6fd" stroke-width="0.65" />
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="#ffffff" />
+  <rect width="800" height="450" fill="url(#gridE)" />
+  <rect x="24" y="24" width="752" height="402" fill="none" stroke="#0f172a" stroke-width="1.6" />
+
+  <g stroke="#0f172a" stroke-width="2" fill="none">
+    <polyline points="110,120 220,120" />
+    <rect x="220" y="106" width="66" height="28" fill="#e0f2fe" />
+    <polyline points="286,120 430,120 430,190" />
+    <line x1="402" y1="190" x2="458" y2="190" stroke-width="3" />
+    <line x1="402" y1="208" x2="458" y2="208" stroke-width="3" />
+    <polyline points="430,208 430,320 110,320 110,120" />
+    <circle cx="110" cy="220" r="28" fill="#ffffff" />
+    <polyline points="430,120 620,120 620,185" />
+    <circle cx="620" cy="220" r="35" fill="#e0f2fe" />
+    <polyline points="620,255 620,320 430,320" />
+    <circle cx="430" cy="120" r="4" fill="#0284c7" stroke="none" />
+    <circle cx="430" cy="320" r="4" fill="#0284c7" stroke="none" />
+  </g>
+
+  <g font-family="monospace" font-size="13" fill="#0284c7" font-weight="600">
+    <text x="110" y="225" text-anchor="middle" fill="#0f172a">24V DC</text>
+    <text x="253" y="96" text-anchor="middle">R1 · 10 kΩ</text>
+    <text x="470" y="204">C1 · 100 µF</text>
+    <text x="620" y="225" text-anchor="middle" fill="#0f172a">M1 (3~)</text>
+    <text x="48" y="54">SIMBOLOGÍA NORMALIZADA IEC 60617 · ESQUEMA DE CONTROL Y POTENCIA</text>
+  </g>
+</svg>

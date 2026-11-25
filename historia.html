@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Historia del Arte y del Dibujo Técnico | Dibujo Técnico</title>
+  <meta name="description" content="Línea de tiempo interactiva del dibujo técnico: Antigüedad en Mesopotamia y Egipto, Renacimiento, Revolución Industrial y Era Digital CAD." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-container" aria-label="Navegación principal">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75">
+            <rect x="3" y="3" width="26" height="26" rx="2" />
+            <circle cx="16" cy="16" r="6" />
+            <line x1="16" y1="5" x2="16" y2="27" stroke-dasharray="3 2" />
+            <line x1="5" y1="16" x2="27" y2="16" stroke-dasharray="3 2" />
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-title">DIBUJO TÉCNICO</span>
+          <span class="brand-code">ISO 128 · ESC 1:1</span>
+        </span>
+      </a>
+
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú de navegación">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="index.html" class="nav-link">01. Inicio</a></li>
+        <li><a href="instrumentos.html" class="nav-link">02. Instrumentos</a></li>
+        <li><a href="historia.html" class="nav-link active" aria-current="page">03. Historia</a></li>
+        <li><a href="galeria.html" class="nav-link">04. Galería</a></li>
+        <li><a href="aplicaciones.html" class="nav-link">05. Aplicaciones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Inicio</a>
+          <span>/</span>
+          <span>03. Historia del Arte y del Dibujo Técnico</span>
+        </div>
+        <h1 class="page-title">Historia del Arte y del Dibujo Técnico</h1>
+        <p class="hero-description">
+          Desde las plantas arquitectónicas grabadas en piedra en Mesopotamia hasta el modelado paramétrico tridimensional en la nube: recorre las cuatro etapas clave que definieron la geometría aplicada y la representación gráfica universal.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-index">EXPLORADOR CRONOLÓGICO INTERACTIVO</div>
+          <h2 class="section-title">Línea de tiempo por etapas</h2>
+          <p class="section-subtitle">Selecciona cada etapa histórica para inspeccionar sus aportes técnicos y lámina ilustrativa.</p>
+        </div>
+
+        <div class="timeline-shell">
+          <div class="timeline-tabs" role="tablist" aria-label="Etapas históricas del dibujo técnico">
+            <button type="button" class="timeline-tab active" role="tab" aria-selected="true" data-era="antiguedad">
+              <span class="era-code">ETAPA 01</span>
+              <span class="era-name">Antigüedad</span>
+              <span class="era-years">~3000 a.C. – 500 d.C.</span>
+            </button>
+            <button type="button" class="timeline-tab" role="tab" aria-selected="false" data-era="renacimiento">
+              <span class="era-code">ETAPA 02</span>
+              <span class="era-name">Renacimiento</span>
+              <span class="era-years">Siglos XV – XVI</span>
+            </button>
+            <button type="button" class="timeline-tab" role="tab" aria-selected="false" data-era="industrial">
+              <span class="era-code">ETAPA 03</span>
+              <span class="era-name">Revolución Industrial</span>
+              <span class="era-years">Siglos XVIII – XIX</span>
+            </button>
+            <button type="button" class="timeline-tab" role="tab" aria-selected="false" data-era="digital">
+              <span class="era-code">ETAPA 04</span>
+              <span class="era-name">Era Digital</span>
+              <span class="era-years">1963 – Actualidad</span>
+            </button>
+          </div>
+
+          <div class="timeline-stage" id="timeline-stage" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-index">ARCHIVO VISUAL COMPLETO</div>
+          <h2 class="section-title">Las cuatro eras en detalle</h2>
+          <p class="section-subtitle">Comparativa visual continua de los hitos, autores y métodos de representación gráfica.</p>
+        </div>
+
+        <div class="eras-archive-grid">
+          <article class="era-archive-card">
+            <img src="assets/img/era-antiguedad.jpg" alt="Planos antiguos en Mesopotamia y papiro egipcio cuadriculado" />
+            <div class="era-archive-body">
+              <span class="era-code">ETAPA 01 · ~3000 a.C. – 500 d.C.</span>
+              <h3>Antigüedad: Mesopotamia y Egipto</h3>
+              <p>La estatua de Gudea de Lagash muestra el primer plano arquitectónico conocido grabado con regla graduada. En Egipto se emplearon retículas modulares sobre papiro y piedra caliza para controlar proporciones monumentales.</p>
+            </div>
+          </article>
+
+          <article class="era-archive-card">
+            <img src="assets/img/era-renacimiento.svg" alt="Estudio de perspectiva cónica de Brunelleschi y engranajes de Da Vinci" />
+            <div class="era-archive-body">
+              <span class="era-code">ETAPA 02 · SIGLOS XV – XVI</span>
+              <h3>Renacimiento: Brunelleschi y Da Vinci</h3>
+              <p>Filippo Brunelleschi formaliza la perspectiva cónica matemática y el punto de fuga. Leonardo da Vinci revoluciona la ingeniería gráfica con bocetos mecánicos en despiece, transparencias y secciones.</p>
+            </div>
+          </article>
+
+          <article class="era-archive-card">
+            <img src="assets/img/era-industrial.svg" alt="Sistema diédrico de geometría descriptiva de Gaspard Monge" />
+            <div class="era-archive-body">
+              <span class="era-code">ETAPA 03 · SIGLOS XVIII – XIX</span>
+              <h3>Revolución Industrial: Gaspard Monge</h3>
+              <p>La Geometría Descriptiva de Monge (1799) estandariza la proyección ortogonal en dos planos perpendiculares, haciendo posible la fabricación en serie de piezas intercambiables sin ambigüedad.</p>
+            </div>
+          </article>
+
+          <article class="era-archive-card">
+            <img src="assets/img/era-digital.svg" alt="Entorno CAD 2D y modelado sólido 3D" />
+            <div class="era-archive-body">
+              <span class="era-code">ETAPA 04 · 1963 – ACTUALIDAD</span>
+              <h3>Era Digital: CAD 2D, 3D y BIM</h3>
+              <p>Desde Sketchpad hasta las plataformas CAD paramétricas actuales, los planos vectoriales generan automáticamente vistas ortogonales, cortes, simulaciones estructurales y trayectorias CNC.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>DIBUJO TÉCNICO · PORTAL EDUCATIVO</strong>
+        <span>Sección 03 · Historia del Arte y del Dibujo Técnico</span>
+      </div>
+      <div class="footer-meta">
+        <a href="instrumentos.html">← Anterior: Instrumentos</a>
+        <a href="galeria.html">Siguiente: Galería →</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

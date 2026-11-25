@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <pattern id="gridM" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#bae6fd" stroke-width="0.65" />
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="#ffffff" />
+  <rect width="800" height="450" fill="url(#gridM)" />
+  <rect x="24" y="24" width="752" height="402" fill="none" stroke="#0f172a" stroke-width="1.6" />
+
+  <g stroke="#0284c7" stroke-width="1.1" stroke-dasharray="10 4 2 4">
+    <line x1="60" y1="215" x2="740" y2="215" />
+    <line x1="275" y1="50" x2="275" y2="380" />
+    <line x1="535" y1="50" x2="535" y2="380" />
+  </g>
+
+  <g transform="translate(275,215)" fill="none" stroke="#0f172a" stroke-width="2">
+    <circle cx="0" cy="0" r="132" fill="#f8fafc" />
+    <circle cx="0" cy="0" r="114" stroke="#0284c7" stroke-dasharray="6 4" stroke-width="1.4" />
+    <circle cx="0" cy="0" r="96" />
+    <circle cx="0" cy="0" r="46" fill="#e0f2fe" />
+    <circle cx="0" cy="0" r="24" fill="#ffffff" />
+    <rect x="-6" y="-32" width="12" height="10" fill="#ffffff" />
+  </g>
+
+  <g transform="translate(535,215)" fill="none" stroke="#0f172a" stroke-width="2">
+    <circle cx="0" cy="0" r="96" fill="#f8fafc" />
+    <circle cx="0" cy="0" r="80" stroke="#0284c7" stroke-dasharray="6 4" stroke-width="1.4" />
+    <circle cx="0" cy="0" r="64" />
+    <circle cx="0" cy="0" r="30" fill="#e0f2fe" />
+    <circle cx="0" cy="0" r="16" fill="#ffffff" />
+  </g>
+
+  <g stroke="#0284c7" stroke-width="1.4" fill="#0284c7" font-family="monospace" font-size="12">
+    <line x1="275" y1="365" x2="535" y2="365" />
+    <polygon points="275,365 287,361 287,369" />
+    <polygon points="535,365 523,361 523,369" />
+    <rect x="332" y="352" width="146" height="22" fill="#ffffff" stroke="none" />
+    <text x="405" y="367" text-anchor="middle" stroke="none" font-weight="600">a = m(z₁ + z₂)/2</text>
+    <text x="48" y="54" stroke="none">AJUSTE H7/g6 · TOLERANCIA GD&amp;T</text>
+  </g>
+</svg>
